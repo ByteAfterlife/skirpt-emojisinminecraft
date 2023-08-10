@@ -1,0 +1,23 @@
+on chat:
+	if message is ":skull:":
+		set message to "💀"
+		send "[&aEmojiMC&r] Converted :skull: into an emoji!" to player
+	else if message is ":happy:":
+		set message to "☻"
+		send "[&aEmojiMC&r] Converted :happy: into an emoji!" to player
+	else if message is ":music_1:":
+		set message to "♪"
+		send "[&aEmojiMC&r] Converted :music_1: into an emoji!"
+	else if message is ":music_2:":
+		set message to "♫"
+		send "[&aEmojiMC&r] Converted :music_2: into an emoji!"
+#Fun easter egg ;)
+	else if message is ":???:":
+		set message to "&4&k???"
+		send "[&a&kEmojiMC&r] &kConverted &r:???:&k into an emoji!"
+	else if message is ":happy_transparent:" or ":happy_1:":
+		send "[&aEmojiMC&r] Converted %message% into an emoji!"
+		set message to "☺"
+	else if message is "::":
+		cancel event
+		send "[&aEmojiMC&r] :music_1:, :music_2:, :happy:, :happy_transparent:/:happy_1:, :skull:, :&k???&r:"
