@@ -11,13 +11,39 @@ on chat:
 	else if message is ":music_2:":
 		set message to "♫"
 		send "[&aEmojiMC&r] Converted :music_2: into an emoji!"
-#Fun easter egg ;)
 	else if message is ":???:":
 		set message to "&4&k???"
 		send "[&a&kEmojiMC&r] &kConverted &r:???:&k into an emoji!"
 	else if message is ":happy_transparent:" or ":happy_1:":
 		send "[&aEmojiMC&r] Converted %message% into an emoji!"
 		set message to "☺"
+	else if message is ":pickaxe:" or ":pick:":
+		send "[&aEmojiMC&r] Converted %message% into an emoji!"
+		set message to "⛏"
+	else if message is ":diamond:":
+		set message to "💎"
+		send "[&aEmojiMC&r] Converted :diamond: into an emoji!"
+	else if message is ":pig:":
+		set message to "🐖"
+		send "[&aEmojiMC&r] Converted :pig: into an emoji!"
+	else if message is ":cat:":
+		set message to "🐈"
+		send "[&aEmojiMC&r] Converted :cat: into an emoji!"
+	else if message is ":wolf:" or ":dog:":
+		send "[&aEmojiMC&r] Converted %message% into an emoji!"
+		set message to "🐺"
+	else if message is ":ladder:":
+		set message to "🪜"
+		send "[&aEmojiMC&r] Converted :ladder: into an emoji!"
+	else if message is ":chicken:" or ":chicken_laying_egg:":
+		send "[&aEmojiMC&r] Converted %message% into an emoji!"
+		set message to "🐔"
+	else if message is ":fire:":
+		set message to "🔥"
+		send "[&aEmojiMC&r] Converted :fire: into an emoji!"
+	else if message is ":brick:":
+		set message to "🧱"
+		send "[&aEmojiMC&r] Converted :brick: into an emoji!"
 	else if message is "::":
 		cancel event
-		send "[&aEmojiMC&r] :music_1:, :music_2:, :happy:, :happy_transparent:/:happy_1:, :skull:, :&k???&r:"
+		send "[&aConvemojii&r] :music_1:, :music_2:, :happy:, :happy_transparent:/:happy_1:, :skull:, :&k???&r:, :pick:/:pickaxe:, :pig:, :diamond:, :cat:, :wolf:/:dog:, :ladder:, :chicken:/:chicken_laying_egg:, :fire:, :brick:"
