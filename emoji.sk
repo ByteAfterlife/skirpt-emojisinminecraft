@@ -46,4 +46,4 @@ on chat:
 		send "[&aEmojiMC&r] Converted :brick: into an emoji!"
 	else if message is "::":
 		cancel event
-		send "[&aConvemojii&r] :music_1:, :music_2:, :happy:, :happy_transparent:/:happy_1:, :skull:, :&k???&r:, :pick:/:pickaxe:, :pig:, :diamond:, :cat:, :wolf:/:dog:, :ladder:, :chicken:/:chicken_laying_egg:, :fire:, :brick:"
+		send "[&aEmojiMC&r] :music_1:, :music_2:, :happy:, :happy_transparent:/:happy_1:, :skull:, :&k???&r:, :pick:/:pickaxe:, :pig:, :diamond:, :cat:, :wolf:/:dog:, :ladder:, :chicken:/:chicken_laying_egg:, :fire:, :brick:"
