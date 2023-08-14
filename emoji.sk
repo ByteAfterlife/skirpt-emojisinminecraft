@@ -1,48 +1,48 @@
 on chat:
-	if message is ":skull:":
-		set message to "💀"
+	if message contains ":skull:":
+		replace all ":skull:" in message with "💀"
 		send "[&aEmojiMC&r] Converted :skull: into an emoji!" to player
-	else if message is ":happy:":
-		set message to "☻"
+	else if message contains ":happy:":
+		replace all ":happy:" in message with "☻"
 		send "[&aEmojiMC&r] Converted :happy: into an emoji!" to player
-	else if message is ":music_1:":
-		set message to "♪"
+	else if message contains ":music_1:":
+		replace all ":music_1:" in message with "♪"
 		send "[&aEmojiMC&r] Converted :music_1: into an emoji!"
-	else if message is ":music_2:":
-		set message to "♫"
+	else if message contains ":music_2:":
+		replace all ":music_2:" in message with "♫"
 		send "[&aEmojiMC&r] Converted :music_2: into an emoji!"
 	else if message is ":???:":
 		set message to "&4&k???"
 		send "[&a&kEmojiMC&r] &kConverted &r:???:&k into an emoji!"
-	else if message is ":happy_transparent:" or ":happy_1:":
-		send "[&aEmojiMC&r] Converted %message% into an emoji!"
-		set message to "☺"
-	else if message is ":pickaxe:" or ":pick:":
-		send "[&aEmojiMC&r] Converted %message% into an emoji!"
-		set message to "⛏"
-	else if message is ":diamond:":
-		set message to "💎"
+	else if message contains ":happy_transparent:" or ":happy_1:":
+		send "[&aEmojiMC&r] Converted all known emojis in your message into an emoji!"
+		replace all ":happy_1:" or "happy_transparent" in message with "☺"
+	else if message contains ":pickaxe:" or ":pick:":
+		send "[&aEmojiMC&r] Converted all known emojis in your message into an emoji!"
+		replace all ":pick:" or ":pickaxe:" in message with "⛏"
+	else if message contains ":diamond:":
+		replace all ":diamond:" in message with "💎"
 		send "[&aEmojiMC&r] Converted :diamond: into an emoji!"
-	else if message is ":pig:":
-		set message to "🐖"
+	else if message contains ":pig:":
+		replace all ":pig:" in message with "🐖"
 		send "[&aEmojiMC&r] Converted :pig: into an emoji!"
-	else if message is ":cat:":
-		set message to "🐈"
+	else if message contains ":cat:":
+		replace all ":cat:" in message with "🐈"
 		send "[&aEmojiMC&r] Converted :cat: into an emoji!"
-	else if message is ":wolf:" or ":dog:":
-		send "[&aEmojiMC&r] Converted %message% into an emoji!"
-		set message to "🐺"
-	else if message is ":ladder:":
-		set message to "🪜"
+	else if message contains ":wolf:" or ":dog:":
+		send "[&aEmojiMC&r] Converted all known emojis in your message into an emoji!"
+		replace all ":wolf:" or ":dog:" in message with "🐺"
+	else if message contains ":ladder:":
+		replace all ":ladder:" in message with "🪜"
 		send "[&aEmojiMC&r] Converted :ladder: into an emoji!"
-	else if message is ":chicken:" or ":chicken_laying_egg:":
-		send "[&aEmojiMC&r] Converted %message% into an emoji!"
-		set message to "🐔"
-	else if message is ":fire:":
-		set message to "🔥"
+	else if message contains ":chicken:" or ":chicken_laying_egg:":
+		send "[&aEmojiMC&r] Converted all known emojis in your message into an emoji!"
+		replace all ":chicken:" or "chicken_laying_egg" in message with "🐔"
+	else if message contains ":fire:":
+		replace all ":fire:" in message with "🔥"
 		send "[&aEmojiMC&r] Converted :fire: into an emoji!"
-	else if message is ":brick:":
-		set message to "🧱"
+	else if message contains ":brick:":
+		replace all ":brick:" in message with "🧱"
 		send "[&aEmojiMC&r] Converted :brick: into an emoji!"
 	else if message is "::":
 		cancel event
