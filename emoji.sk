@@ -16,7 +16,7 @@ on chat:
 		send "[&a&kEmojiMC&r] &kConverted &r:???:&k into an emoji!"
 	if message contains ":happy_transparent:" or ":happy_1:":
 		send "[&aEmojiMC&r] Converted all known emojis in your message into an emoji!"
-		replace all ":happy_1:" or "happy_transparent" in message with "☺"
+		replace all ":happy_1:" or ":happy_transparent:" in message with "☺"
 	if message contains ":pickaxe:" or ":pick:":
 		send "[&aEmojiMC&r] Converted all known emojis in your message into an emoji!"
 		replace all ":pick:" or ":pickaxe:" in message with "⛏"
