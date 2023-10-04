@@ -44,6 +44,10 @@ on chat:
 	if message contains ":brick:":
 		replace all ":brick:" in message with "🧱"
 		send "[&aEmojiMC&r] Converted :brick: into an emoji!"
+	if message contains ":whatever:":
+		replace all ":whatever:" in message with "🥹"
+	if message contains ":sad:":
+		replace all ":sad:" in message with "😥"
 	if message is "::":
 		cancel event
-		send "[&aEmojiMC&r] :music_1:, :music_2:, :happy:, :happy_transparent:/:happy_1:, :skull:, :&k???&r:, :pick:/:pickaxe:, :pig:, :diamond:, :cat:, :wolf:/:dog:, :ladder:, :chicken:/:chicken_laying_egg:, :fire:, :brick:"
+		send "[&aEmojiMC&r] :music_1:, :music_2:, :happy:, :happy_transparent:/:happy_1:, :skull:, :&k???&r:, :pick:/:pickaxe:, :pig:, :diamond:, :cat:, :wolf:/:dog:, :ladder:, :chicken:/:chicken_laying_egg:, :fire:, :brick:, :whatever:, :sad:"
