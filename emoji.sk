@@ -1,6 +1,6 @@
 on chat:
 	if message contains ":skull:":
-		replace all ":skull:" in message with "💀"
+		replace all ":skull:" in message with "☠"
 		send "[&aEmojiMC&r] Converted :skull: into an emoji!" to player
 	if message contains ":happy:":
 		replace all ":happy:" in message with "☻"
