@@ -1,3 +1,5 @@
+# Please keep the GitHub attribution so others can discover this skript too :)
+
 on chat:
 	if message contains ":skull:":
 		replace all ":skull:" in message with "☠"
@@ -53,3 +55,4 @@ on chat:
 	if message is "::":
 		cancel event
 		send "[&aEmojiMC&r] :music_1:, :music_2:, :happy:, :happy_transparent:/:happy_1:, :skull:, :&k???&r:, :pick:/:pickaxe:, :pig:, :diamond:, :cat:, :wolf:/:dog:, :ladder:, :chicken:/:chicken_laying_egg:, :fire:, :brick:, :whatever:, :sad:"
+		send "&aThis skript is publicly available to you too at &l<link:https://github.com/ByteAfterlife/skirpt-emojisinminecraft>this link"
